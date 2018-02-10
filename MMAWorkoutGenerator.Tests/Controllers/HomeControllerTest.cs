@@ -25,7 +25,7 @@ namespace MMAWorkoutGenerator.Tests.Controllers
             Assert.IsNotNull(result);
         }
 
-        [TestMethod]
+        /*[TestMethod]
         public void About()
         {
             // Arrange
@@ -49,6 +49,6 @@ namespace MMAWorkoutGenerator.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-        }
+        }*/
     }
 }
