@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMAWorkoutGenerator", "MMAWorkoutGenerator\MMAWorkoutGenerator.csproj", "{ED76CC01-7558-4DFD-9398-7C38D3844010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMAWorkoutGenerator.Tests", "MMAWorkoutGenerator.Tests\MMAWorkoutGenerator.Tests.csproj", "{A05DD6AF-A3B6-48AB-A5CD-12708ABF8340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED76CC01-7558-4DFD-9398-7C38D3844010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED76CC01-7558-4DFD-9398-7C38D3844010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED76CC01-7558-4DFD-9398-7C38D3844010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED76CC01-7558-4DFD-9398-7C38D3844010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05DD6AF-A3B6-48AB-A5CD-12708ABF8340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05DD6AF-A3B6-48AB-A5CD-12708ABF8340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05DD6AF-A3B6-48AB-A5CD-12708ABF8340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05DD6AF-A3B6-48AB-A5CD-12708ABF8340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21CA577-C90F-4044-BFB2-75D45146CF7E}
+	EndGlobalSection
+EndGlobal
