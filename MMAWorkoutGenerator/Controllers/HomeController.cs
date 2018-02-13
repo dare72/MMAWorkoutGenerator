@@ -8,6 +8,7 @@ namespace MMAWorkoutGenerator.Controllers
 {
     public class HomeController : Controller
     {
+        //Exercis exercisesDb;
         public ActionResult Index()
         {
             return View();

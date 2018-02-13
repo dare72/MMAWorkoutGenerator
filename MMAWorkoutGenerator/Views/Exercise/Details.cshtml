@@ -1,0 +1,34 @@
+﻿@model MMAWorkoutGenerator.Models.EXERCIS
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EXERCIS</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.exerciseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exerciseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.exerciseDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.exerciseDesc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.exerciseID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
